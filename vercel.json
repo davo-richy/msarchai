@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm install --frozen-lockfile=false && pnpm --filter @workspace/ms-arch run build",
+  "outputDirectory": "artifacts/ms-arch/dist",
+  "installCommand": "npm install -g pnpm && pnpm install --frozen-lockfile=false",
+  "framework": null,
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
