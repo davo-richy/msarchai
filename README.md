@@ -41,3 +41,5 @@ For Azure AI Foundry serverless endpoints (non-OpenAI): URL has no api-version, 
 Always check your Azure portal for the exact supported API versions for your deployment
 User preferences
 Populate as you build — explicit user instructions worth remembering across sessions.
+
+This project is already deployed url https://msarch-ai.vercel.app
